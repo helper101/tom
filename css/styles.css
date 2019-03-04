@@ -1,0 +1,18 @@
+.playerone {
+  float:left;
+}
+.playertwo {
+  float:right;
+}
+#headertwo, #titletwo, #headerone, #titleone {
+  text-align: center;
+}
+/* .playerzone {
+  display: none;
+} */
+.buttons {
+  text-align: center;
+}
+#roll2, #hold2 {
+  display: none;
+}

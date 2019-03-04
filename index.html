@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.3.1.js" charset="utf-8"></script>
+    <script src="js/scripts.js"></script>
+    <title>pig dice</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="jumbotron">
+      <h1>PIG DICE GAME</h1>
+      <h2>Rules of the game</h2>
+
+      <p>This is a game of chance that involves two players each waiting for their turn to roll a dice with the aim of scoring 100 points to emerge the winner</p>
+      <p>rules</p>
+      <ul>
+        <li>A player rolls the dice when its their turn to play</li>
+        <li>if the dice land and the player gets 1 their total score translates to 0 and it becomes the next player's turn</li>
+        <li>if the player rolls between 2-6 the score is added to their cummulativescore and they can play again or hold</li>
+        <li>Roll on untill either player score 100 points to win the game</li>
+      </ul>
+    </div>
+
+    <div class="playerzone">
+
+    <div class="playerone">
+      <h2 id="headerone">player1</h2>
+      <h2 id="titleone">SCORE: <span id="score"></span> </h2>
+      <p>DICE: <span id="dice"></span> &nbsp &nbsp &nbsp &nbsp &nbsp TURN SCORE: <span id="turnscore"></span>  </p>
+
+    </div>
+
+
+    <div class="playertwo">
+      <h2 id="headertwo">player2</h2>
+      <h2 id="titletwo">SCORE: <span id="scoretwo"></span> </h2>
+      <p>DICE: <span id="dicetwo"></span> &nbsp &nbsp &nbsp &nbsp &nbsp TURN SCORE: <span id="turnscore2"></span> </p>
+
+    </div>
+
+    <div class="buttons">
+       <p><button type="button" name="button" id="roll" class="btn btn-danger">ROLL</button></p>
+       <p><button type="button" name="button" id="roll2" class="btn btn-danger">ROLL</button></p>
+       <p><button type="button" name="button" id="hold" class="btn btn-success">HOLD</button></p>
+       <p><button type="button" name="button" id="hold2" class="btn btn-success">HOLD</button></p>
+       <p><a href="index.html"><button type="button" name="button" id="newgame" class="btn btn-warning">NEWGAME</button></a></p>
+    </div>
+    </div>
+
+
+
+
+
+
+  </body>
+</html>
